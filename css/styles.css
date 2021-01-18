@@ -1,27 +1,72 @@
 body{
   margin: 0;
   padding: 0;
+  display: block;
   color: white;
 
 }
 img{
   border-radius: 50%;
-  display: block;
 
+}
+.pls{
+  margin-top: 100px;
+}
+
+.footer-link{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #64dfdf;
+}
+.btn{
+  color:  #6930c3;
 }
 .bottom-container{
+  width: 100%;
   text-align: center;
   font-family: 'Fraunces', serif;
-  background-color: black;
+  background-color:#252525;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
+.pop{
+  padding-top: 10px;
+  background-color:#80ffdb;
+}
+.skills{
+  text-align: center;
+  color: black;
+  padding-bottom: 100px;
+  background-color: #64dfdf;
+}
+.skill-row{
+  margin: auto;
+  width: 50%;
+  color: black;
+  text-align: center;
 
+}
+h2{
+  margin-top: 0;
+  padding-top: 10px;
+}
 .steve{
-
+  width: 20%;
   padding-top: 90px;
   border-radius: 50%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+
+}
+.name{
+  padding-bottom: 20px;
+}
+.h1{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+  padding-top: 180px;
 }
 .ok{
   position: absolute;
@@ -35,55 +80,107 @@ img{
 .container {
   position: relative;
   top: 0;
-background-color: black;
-height: 400px;
+background-color: #252525;
+height: 500px;
 width: 100%;
 }
-h1{
-  font-family: 'Kaushan Script', cursive;
-  position: absolute;
-  font-size: 60px;
-  margin-left: 300px;
-  margin-top: 180px;
-}
+
 .mine{
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0;
+  border-radius: 20%;
   border-style: solid;
-  border-color: white;
-
-
-  height: 150px;
-  width: 150px;
+  border-color: black;
+  float: left;
+  width: 25%;
 }
 .word{
+  padding-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 .middle-container{
+  width: 100%;
   font-family: 'Yeon Sung', cursive;
   text-align: center;
-  background-color: black;
+  background-color: #6930c3;
 
 }
+
+
 hr{
   color: #7c9473;
+  border-style: none;
+  border-width: 10px;
+  margin: 0 auto 0 auto;
+  border-top: 5px dotted;
+  width: 10%;
+  padding-bottom: 20px;
 }
 .sword{
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0;
+  border-radius: 20%;
   border-style: solid;
   border-color: black;
-  height: 150px;
-  width: 150px;
+  width: 25%;
+  float: right;
 }
 .someone{
-  position: absolute;
-  margin-left: 470px;
-  margin-top: 260px;
+  text-align: center;
+  padding-top: 0;
+}
+.contact{
+  background-color: #80ffdb;
+  width: 100%;
 }
 .contact-me{
+  padding-top: 40px;
+  width: 50%;
+  color: #6930c3;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #80ffdb ;
   font-family: 'Fraunces', serif;
+  padding-bottom: 40px;
+}
+.BUTTON_NRH {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   color: #FFFFFF;
+   font-family: 'Fraunces', serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_NRH:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
